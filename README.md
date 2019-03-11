@@ -7,3 +7,4 @@
  type ```expo start``` and wait for the project to run and then scan the QR code from your mobile and see the output
  Team Member:
  Sowmya
+ Dinesh
