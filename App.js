@@ -7,20 +7,19 @@ export default class App extends React.Component {
   render() {
     return (
       <View >
-        <View style={styles.container}>
-          <Header>
-            <Image resizeMode='stretch'
-              style={{width:200, height: 30,marginTop:29, }}
-              source={require('./assets/headerImage1.png')}
-            />
-          </Header>
-          <Header>
-            <Image resizeMode='stretch'
+        <Header style={styles.container}>
+            <Image resizeMode='cover'
               style={{ width: 100, height: 30, marginTop: 29, }}
               source={require('./assets/headerImage2.png')}
             />
-          </Header>
-        </View>
+            <Image resizeMode='cover'
+              style={{width:200, height: 30,marginTop:29, }}
+              source={require('./assets/headerImage1.png')}
+            />
+        </Header>
+        <Header>
+          <Text>We make it easy to complete your window installation projects</Text>
+        </Header>
       </View>
     );
   }
