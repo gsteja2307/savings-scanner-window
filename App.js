@@ -21,6 +21,14 @@ export default class App extends React.Component {
             />
           </Header>
         </View>
+        <View>
+          <Footer>
+          <Image resizeMode='stretch'
+              style={{width:200, height: 30,marginTop:29, }}
+              source={require('./assets/footer.png')}
+          />
+          </Footer>
+        </View>
       </View>
     );
   }
