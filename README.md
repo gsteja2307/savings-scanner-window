@@ -5,3 +5,5 @@
  run npm install in the console and wait for the node modules to be downloaded 
 ## third step
  type ```expo start``` and wait for the project to run and then scan the QR code from your mobile and see the output
+ Team Member:
+ Sowmya
