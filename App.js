@@ -1,8 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View,Image } from 'react-native';
 import Header from './components/Header';
+import Footer from './components/Footer';
 // import { Image } from 'react-native';
-
+import RouterComponent from './Router';
 export default class App extends React.Component {
   render() {
     return (
@@ -20,6 +21,14 @@ export default class App extends React.Component {
         <Header>
           <Text>We make it easy to complete your window installation projects</Text>
         </Header>
+        
+        <Footer>
+          <Image 
+          resizeMode='stretch'
+          style={{width:200,height:200}}
+          source={require('./assets/footer.png')}
+          />
+          </Footer>
       </View>
     );
   }
