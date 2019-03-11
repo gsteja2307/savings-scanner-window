@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 // import { Image } from 'react-native';
 import RouterComponent from './Router';
 export default class App extends React.Component {
+  //mounika
   render() {
     return (
       <View >
